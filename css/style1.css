@@ -1,0 +1,38 @@
+header {
+  background: #22c1c3;
+  background: linear-gradient(0deg, #27AE60 0%, #58D68D 100%); }
+  header .menuSticky {
+    position: sticky;
+    top: 0;
+    left: 0; }
+    header .menuSticky .menuSticky__imgLogo {
+      width: 350px;
+      height: 120px; }
+
+footer {
+  background: #22c1c3;
+  background: linear-gradient(180deg, #27AE60 0%, #58D68D 100%); }
+
+.h1footer {
+  font-style: oblique;
+  font-family: 'Cairo', sans-serif;
+  font-size: 40px;
+  color: #05a505;
+  margin-left: 100px;
+  animation: tada;
+  animation-duration: 2s;
+  animation-iteration-count: infinite; }
+
+.formulariosBordes {
+  border: dashed; }
+
+.icon-redSocial {
+  background-color: #3a5795; }
+
+.icon-redSocial {
+  background-color: #c25e30; }
+
+.btn-primary {
+  width: 100px;
+  height: 70px;
+  background-color: burlywood; }

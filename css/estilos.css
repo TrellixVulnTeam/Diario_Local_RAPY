@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: rgb(212, 234, 236);
+}
+
+
+/* navMenu (header) */
+header {
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, #27AE60 0%, #58D68D 100%);
+
+}
+.menuSticky {
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+.menuSticky__imgLogo {
+    width: 350px;
+    height: 150px;
+}
+
+
+
+
+/* titulos pag principal y menus (main) */
+h1 {
+    font-style: oblique;
+    font-family: 'Cairo', sans-serif;
+    font-size: 38px;
+    color: #ff0000;
+}
+h2 {
+    font-family: 'Cairo', sans-serif;
+    color: #01b40a;
+}
+.h3EnSecciones {
+    font-family: 'Cairo', sans-serif;
+    color: #F00D0D;
+}
+h4 {
+    font-style: oblique;
+    font-family: 'Cairo', sans-serif;
+    font-size: 24px;
+    color: #ff0000;
+}
+.seccionA {
+    grid-area: seccionA;
+    height: 520px;
+}
+.seccionA__imgPrincipal {
+    width: 1024px; 
+    height: 400px;
+}
+
+.seccionA__pPrincipal {
+    text-align: center;
+}
+
+.seccionB {
+    grid-area: seccionB;
+    height: 850px;
+}
+.seccionB_imgSubNoticia {
+    width: 550px;
+    height: 300px;
+}
+.seccionC {
+    grid-area: seccionC;
+}
+.formulariosBordes {
+    border: dashed;
+}
+
+
+/* menu nav (main) */
+.h1NavMenu {
+    font-style: oblique;
+    font-family: 'Cairo', sans-serif;
+    font-size: 40px;
+    color: #0000ff;
+    animation: flash;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+
+/* menu footer (footer) */
+.h1footer {
+    font-style: oblique;
+    font-family: 'Cairo', sans-serif;
+    font-size: 40px;
+    color: #05a505;
+    margin-left: 100px;
+    animation: tada;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+footer {
+    background: rgb(34,193,195);
+    background: linear-gradient(180deg, #27AE60 0%, #58D68D 100%);
+}
+
+.copyright {
+    font-style: italic;
+    font-weight: bold;
+    color: white;
+}
+
+
+
+
+
+
+@media screen and (max-width: 768px) { /*tamaño tablets, (si es mayor a 768px no se aplica)*/
+
+}
+@media screen and (max-width: 576px) { /*tamaño celulares, (si es mayor a 576px no se aplica)*/
+
+}

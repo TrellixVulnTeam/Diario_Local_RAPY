@@ -1,0 +1,16 @@
+footer {
+    background: rgb(34,193,195);
+    background: linear-gradient(180deg, #27AE60 0%, #58D68D 100%);
+
+}
+
+.h1footer {
+    font-style: oblique;
+    font-family: 'Cairo', sans-serif;
+    font-size: 40px;
+    color: #05a505;
+    margin-left: 100px;
+    animation: tada;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}

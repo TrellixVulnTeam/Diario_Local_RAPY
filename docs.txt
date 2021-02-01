@@ -1,0 +1,20 @@
+**** A g r e g a d o s ****
+
+* Keywords: DIARIO, HOY, SALUD, ECONOMIA, DEPORTES, TECNOLOGIA, DOLAR, INFLACION, INSEGURIDAD, DELINCUENCIA, INFORMATIVO, INFORMACION, ACTUALIDAD, EDUCACION, DEMOCRACIA, ARGENTINA, DEPORTIVO, POLICIALES, FINANCIERO, LOCAL, LOCALIDAD, ZONA, SUR, CLASIFICADOS
+* Descripcion: Todo lo que necesitas saber sobre nuestra Localidad y el País. ¡Informate de la mejor manera!
+* Cada imagen en las diferentes secciones "direccionan" a la noticia
+
+
+**** C a m b i o s ****
+
+* Titulos en todas las secciones html
+* Imagenes en todo el sitio, relacionadas a cada seccion
+* Escructura de la pagina
+* Correcciones de palabras en CLASS 
+
+
+**** P o r    C o r r e g i r ****
+
+* No se por que, ahora en la pagina princial el navmenu no queda en formato sticky como si lo tengo en las otras secciones, solo cambie el logo.
+* No logro solucionar el responsive
+* Tampoco entiendo como colocarle margin a todos los html para que no pase lo del navmenu (lo atravieza)

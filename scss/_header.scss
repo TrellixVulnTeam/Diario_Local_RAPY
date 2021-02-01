@@ -1,0 +1,13 @@
+header {
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, #27AE60 0%, #58D68D 100%);
+    .menuSticky {
+        position: sticky;
+        top: 0;
+        left: 0;
+        .menuSticky__imgLogo {
+            width: 350px;
+            height: 120px;
+        }
+    }
+}
