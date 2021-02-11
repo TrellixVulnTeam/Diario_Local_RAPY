@@ -41,7 +41,7 @@
         <h2 class="h1footer">Contanos si viste algo o podes aportar datos para alguna noticia</h2><br><br><br>
         </center>
         
-        <div class="formulariosBordes">
+        <div class="seccionC container formulariosBordes">
             <fieldset>
                 <legend>Completa el siguiente formulario</legend>
                 <form action="#" method="POST">
@@ -55,8 +55,10 @@
                     <textarea name="descripcion" cols="30" rows="3"></textarea><br><br>
                     <label for="acepta">Terminos y condiciones</label>
                     <input type="checkbox" name="acepta" value="1"><br><br>
-                    <input type="submit" name="enviar" value="Enviar datos">
-                    <input type="reset" name="reset" value="Borrar datos">
+                    <div class="col-auto">
+                        <button type="submit" class="btn btn-primary mb-3 btn-sm" name="enviar" value="Enviar datos">Enviar Datos</button>
+                        <button type="submit" class="btn btn-primary mb-3 btn-sm" name="reset" value="Borrar datos">Borrar Datos</button>
+                    </div>
                 </form>
             </fieldset>
         </div>

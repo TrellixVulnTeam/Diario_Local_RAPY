@@ -36,7 +36,7 @@ h1 {
 }
 h2 {
     font-family: 'Rubik Mono One', sans-serif;
-    color: #01b40a;
+    color: #0a0a0a;
 }
 .h3EnSecciones {
     font-family: 'Rubik Mono One', sans-serif;
@@ -47,6 +47,26 @@ h4 {
     font-family: 'Rubik Mono One', sans-serif;
     font-size: 24px;
     color: #0a0a0a;
+}
+.newsletter {
+    font-style: oblique;
+    font-family: 'Rubik Mono One', sans-serif;
+    font-size: 38px;
+    font-weight: bold;
+    color: #1660ff;
+}
+.newsletter:hover {
+    background-color: #90b2fc;
+}
+.tablaPosiciones {
+    font-style: oblique;
+    font-family: 'Rubik Mono One', sans-serif;
+    font-size: 38px;
+    font-weight: bold;
+    color: #1660ff;
+}
+.tablaPosiciones:hover {
+    background-color: #90b2fc;
 }
 .seccionA {
     grid-area: seccionA;
@@ -62,6 +82,7 @@ h4 {
     font-family: 'Rancho', cursive;
     font-size: 20px;
 }
+
 
 .seccionB {
     grid-area: seccionB;
@@ -93,11 +114,9 @@ h4 {
     font-style: oblique;
     font-family: 'Rubik Mono One', sans-serif;
     font-size: 20px;
-    color: #4d4d4e;
+    color: #ffffff;
 }
-.navbar-custom:hover a {
-    background-color: rgb(181, 182, 184);
-}
+
 
 
 /* menu footer (footer) */
