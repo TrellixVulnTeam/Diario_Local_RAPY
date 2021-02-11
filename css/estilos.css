@@ -4,14 +4,14 @@
 }
 
 body {
-    background: rgb(212, 234, 236);
+    background: rgb(255, 255, 255);
 }
 
 
 /* navMenu (header) */
 header {
     background: rgb(34,193,195);
-    background: linear-gradient(0deg, #27AE60 0%, #58D68D 100%);
+    background: linear-gradient(187deg, rgba(2,0,36,1) 0%, rgba(51,51,61,1) 35%, rgba(131,144,147,1) 100%);
 
 }
 .menuSticky {
@@ -30,23 +30,24 @@ header {
 /* titulos pag principal y menus (main) */
 h1 {
     font-style: oblique;
-    font-family: 'Cairo', sans-serif;
+    font-family: 'Merienda', cursive;
     font-size: 38px;
-    color: #ff0000;
+    font-weight: bold;
+    color: #0a0a0a;
 }
 h2 {
-    font-family: 'Cairo', sans-serif;
+    font-family: 'Merienda', cursive;
     color: #01b40a;
 }
 .h3EnSecciones {
-    font-family: 'Cairo', sans-serif;
-    color: #F00D0D;
+    font-family: 'Merienda', cursive;
+    color: #0a0a0a;
 }
 h4 {
     font-style: oblique;
-    font-family: 'Cairo', sans-serif;
+    font-family: 'Merienda', cursive;
     font-size: 24px;
-    color: #ff0000;
+    color: #0a0a0a;
 }
 .seccionA {
     grid-area: seccionA;
@@ -80,7 +81,7 @@ h4 {
 /* menu nav (main) */
 .h1NavMenu {
     font-style: oblique;
-    font-family: 'Cairo', sans-serif;
+    font-family: 'Merienda', cursive;
     font-size: 40px;
     color: #0000ff;
     animation: flash;
@@ -89,10 +90,11 @@ h4 {
 }
 
 
+
 /* menu footer (footer) */
 .h1footer {
     font-style: oblique;
-    font-family: 'Cairo', sans-serif;
+    font-family: 'Merienda', cursive;
     font-size: 40px;
     color: #05a505;
     margin-left: 100px;
@@ -102,7 +104,7 @@ h4 {
 }
 footer {
     background: rgb(34,193,195);
-    background: linear-gradient(180deg, #27AE60 0%, #58D68D 100%);
+    background: linear-gradient(187deg, rgba(2,0,36,1) 0%, rgba(51,51,61,1) 35%, rgba(131,144,147,1) 100%);
 }
 
 .copyright {
