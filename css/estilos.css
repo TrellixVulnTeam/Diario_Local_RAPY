@@ -10,9 +10,8 @@ body {
 
 /* navMenu (header) */
 header {
-    background: rgb(157,153,155);
-    background: radial-gradient(circle, rgba(157,153,155,1) 56%, rgba(93,95,97,1) 100%);
-
+    background: rgb(255,253,254);
+    background: radial-gradient(circle, rgba(255,253,254,1) 45%, rgba(93,95,97,1) 100%);
 }
 .menuSticky {
     position: sticky;
@@ -84,35 +83,43 @@ h4 {
 .h1NavMenu {
     font-style: oblique;
     font-family: 'Rubik Mono One', sans-serif;
-    font-size: 40px;
-    color: #0000ff;
+    font-size: 30px;
+    color: #4d4d4e;
     animation: flash;
-    animation-duration: 2s;
+    animation-duration: 3s;
     animation-iteration-count: infinite;
 }
-
+.navbar-custom {
+    font-style: oblique;
+    font-family: 'Rubik Mono One', sans-serif;
+    font-size: 20px;
+    color: #4d4d4e;
+}
+.navbar-custom:hover a {
+    background-color: rgb(181, 182, 184);
+}
 
 
 /* menu footer (footer) */
 .h1footer {
     font-style: oblique;
     font-family: 'Rubik Mono One', sans-serif;
-    font-size: 40px;
-    color: #05a505;
+    font-size: 30px;
+    color: #4d4d4e
     margin-left: 100px;
     animation: tada;
-    animation-duration: 2s;
+    animation-duration: 3s;
     animation-iteration-count: infinite;
 }
 footer {
-    background: rgb(157,153,155);
-    background: radial-gradient(circle, rgba(157,153,155,1) 56%, rgba(93,95,97,1) 100%);
+    background: rgb(255,253,254);
+    background: radial-gradient(circle, rgba(255,253,254,1) 45%, rgba(93,95,97,1) 100%);
 }
 
 .copyright {
     font-style: italic;
     font-weight: bold;
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 
